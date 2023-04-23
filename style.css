@@ -1,0 +1,32 @@
+ body,
+html {
+    margin: 0;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    background-color: antiquewhite;
+    height: 200px;
+}
+.card{
+    height: 50px;
+    background-color: aqua;
+    flex:1;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.card:hover{
+    background-color: rgb(92, 93, 94);
+    transition: 0.3s;
+}
+.first{
+    flex: 2;
+}
+.second{
+    flex:0.5;
+}
+
+
+
